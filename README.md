@@ -9,6 +9,9 @@ a vim config for coders
 sh <(curl https://codervim.com/scripts/install.sh  -L)
 
 
+For more details about codervim, please refer www.codervim.com
+
+
 
 
 
