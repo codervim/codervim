@@ -15,12 +15,13 @@ mv codervim .codervim
 # backup existing .vimrc
 if [ -f ~/.vimrc ]; then
     mv ~/.vimrc ~/.vimrc.bak
+    echo "backup old .vimrc to .vimrc.bak"
 elif [ -L ~/.vimrc ]; then
-    mv .vimrc .vimrc.bak
-else
-    ln -sv .codervim/vimrc .vimrc
+    mv ~/.vimrc ~/.vimrc.bak
+        echo "backup old .vimrc symbol link to .vimrc.bak"
 fi
 
+ln -sv .codervim/vimrc .vimrc
 
 echo "codervim configurating done. Enjoy!"
 
