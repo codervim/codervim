@@ -2,7 +2,7 @@
 
 
 # download codervim package
-git clone git@github.com:codervim/codervim.git
+git clone https://github.com/codervim/codervim.git
 
 mv codervim .codervim
 
