@@ -14,12 +14,9 @@ if [ -f ~/.vimrc ]; then
 elif [ -L ~/.vimrc ]; then
     mv .vimrc .vimrc.bak
 else
-    ln -sv .comdervim/vimrc .vimrc
+    ln -sv .codervim/vimrc .vimrc
 fi
 
-
-# link .vimrc to codervim/.vimrc
-ln -svf ~/.vimrc .codervim/.vimrc
 
 echo "codervim configurating done. Enjoy!"
 
