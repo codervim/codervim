@@ -1,7 +1,7 @@
 codervim
 ========
 
-a vim config for coders
+a VIM config for coders(programmers)
 
 
 ======== Linux, *nix, Mac OSX INSTALLATION ========
@@ -9,7 +9,11 @@ a vim config for coders
 sh <(curl https://raw.githubusercontent.com/codervim/codervim/master/install.sh  -L)
 
 
-For more details about codervim, please refer www.codervim.com
+
+
+
+
+For more details about codervim, please refer www.codervim.com.
 
 
 
