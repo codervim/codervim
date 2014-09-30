@@ -1,12 +1,16 @@
 #!/bin/sh
 
+if [ -d ~/.codervim ]; then
+    rm -rf .codervim
+    echo "Romved old codervim"
+else
+    echo "No codervim before"
+fi
 
 # download codervim package
 git clone https://github.com/codervim/codervim.git
 
 mv codervim .codervim
-
-
 
 # backup existing .vimrc
 if [ -f ~/.vimrc ]; then
