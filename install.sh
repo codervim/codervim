@@ -10,9 +10,11 @@ mv codervim .codervim
 
 # backup existing .vimrc
 if [ -f ~/.vimrc ]; then
-    mv ~/.vimrc ~/.vimrc.beforecodervim
-elif [ -l ~/.vimrc ]; then
-    ln -sv ~/.vimrc_beforecodervim ***
+    mv ~/.vimrc ~/.vimrc.bak
+elif [ -L ~/.vimrc ]; then
+    mv .vimrc .vimrc.bak
+else
+    ln -sv .comdervim/vimrc .vimrc
 fi
 
 
