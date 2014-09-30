@@ -4,6 +4,7 @@ set ruler
 
 set hlsearch
 
+set nu
 
 syntax enable 
 
