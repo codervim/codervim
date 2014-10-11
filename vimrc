@@ -15,6 +15,7 @@ endtry
 
 set background=dark
 set tw=80
+set wrap
 
 set encoding=utf8
 
