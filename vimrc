@@ -14,7 +14,7 @@ catch
 endtry
 
 set background=dark
-set textwidth=80
+set tw=80
 
 set encoding=utf8
 
